@@ -9,7 +9,7 @@ use App\Http\Controllers\PerangkatdesaController;
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Berita');
 });
 
 Route::get('/login', [LoginController::class, 'index']);
